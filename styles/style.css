@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "RR";
+    src: url('../fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "RM";
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: "RSB";
+    src: url("../fonts/Rubik-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "ISB";
+    src: url("../fonts/Inter_24pt-SemiBold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav {
+    background: #3e8989;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header-box-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-box-links {
+    font-family: 'RM';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 0;
+    transition: 600ms;
+}
+
+.header-box-links:hover {
+    padding-bottom: 5px;
+    border-bottom: #fff 3px solid;
+    border-radius: 2px;
+}
+
+.header-box-search {
+    display: flex;
+}
+
+.header-box-text {
+    border-radius: 20px 0 0 20px;
+    width: 216px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.header-box-text::placeholder {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+}
+
+.header-box-btn {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    width: 74px;
+    background: #295e5e;
+    border: 0;
+}
+
+.header-content {
+    background: url(../images/pic.jpg) no-repeat center /cover;
+    height: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-content-title {
+    font-family: 'RSB';
+    font-weight: 600;
+    font-size: 80px;
+    color: #fff;
+}
+
+.header-content-text {
+    font-family: "RM";
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+}
+
+.header-content-link {
+    display: block;
+    font-family: "ISB";
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    background: #b4436c;
+    padding: 10px 0;
+    text-align: center;
+    transition: 400ms;
+}
+
+.header-content-link:hover {
+    background: #fff;
+    color: #b4436c;
+}
+
+.about {
+    padding: 90px;
+    margin-top: 93px;
+}
+
+.about-title,
+.catalog-title {
+    font-family: 'ISB';
+    font-weight: 600;
+    font-size: 40px;
+    color: #3e8989;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.about-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-content-texts {
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.catalog {
+    margin-top: 93px;
+}
+
+.catalog-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 53px;
+}
+
+.catalog-card {
+    max-width: 263px;
+    width: 100%;
+}
+
+.catalog-card-img {
+    max-width: 263px;
+    height: 300px;
+    width: 100%;
+    background: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-card-title {
+    font-family: 'ISB';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+    transition: 400ms;
+}
+
+.catalog-card-title:hover {
+    color: #b4436c;
+}
+
+.contacts {
+    margin: 100px 0;
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-title {
+    font-family: 'ISB';
+    font-weight: 600;
+    font-size: 40px;
+    color: #3e8989;
+    margin-bottom: 50px;
+}
+
+.contacts-text {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer {
+    background: #3e8989;
+    max-width: 1440px;
+    width: 100%;
+    padding: 40px 0 15px 0;
+}
+
+.footer-box-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-box-links {
+    font-family: 'RM';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 59px;
+}
+
